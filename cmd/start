@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+
+./node_modules/.bin/elm-live src/Main.elm --dir=docs --no-hot-reloading -- --output=docs/main.js
